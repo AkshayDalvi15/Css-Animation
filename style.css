@@ -62,15 +62,43 @@ span:before {
 
 }
 
+.side-cirlce {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: -302px 0 0 -68px;
+  transform: rotate(0deg);
+  animation: animate 20s infinite linear ;
+}
+
+.fir_inner {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 55px 0px 0px 2px ;
+  background-color: #a4a1bd;
+  transform: rotate(0deg);
+}
+
+.sec_inner {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c8eaef;
+  border-radius: 100%;
+  margin: 62px 0px 0px -9px ;
+  background-color: #3addca;
+  transform: rotate(0deg);
+}
+
 .bi {
   display: block;
   position: absolute;
-  /* top: 19%;
-  left: 40%; */
-  width: 300px;
+  width: 300px; 
   height: 300px;
   animation: spin 20s linear infinite;
-}
+} 
 
 @keyframes animate {
    0%{
@@ -89,3 +117,16 @@ span:before {
     transform: rotate(0deg);;
   }
 }
+/* 
+@keyframes main {
+  
+  from {
+    transform: rotate(-360deg);
+    transition: transform 1s linear;
+  }
+  to {
+    transform: rotate(360deg);
+    transition: transform 1s linear;
+  }
+}
+ */
